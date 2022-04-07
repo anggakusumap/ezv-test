@@ -14,4 +14,4 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/index', 'PartnerController@index')->name('partner.index');
+Route::get('/', 'PartnerController@index')->name('partner.index');
